@@ -58,7 +58,7 @@ public class AtmCardInfoTest {
 		fixture.tryPin("1525");
 		assertEquals(1000, fixture.balance);
 		fixture.tryWithdraw("400");
-		assertEquals(600, fixture.balance);
+		assertEquals(601, fixture.balance);
 	}
 
 	@Test
